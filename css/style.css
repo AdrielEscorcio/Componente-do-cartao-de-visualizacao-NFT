@@ -21,6 +21,28 @@ body {
     margin-top: 100px;
     padding: 20px;
     border-radius: 10px;
+    position: relative;
+}
+
+.view {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    opacity: 0;
+    width: 90%;
+    height: 55%;
+    text-align: center;
+    background-color: hsl(178, 100%, 50%, 20%);
+}
+
+.view:hover {
+    opacity: 1;
+    background-color: hsl(178, 100%, 50%, 20%);
+    border-radius: 10px;
+}
+
+.view img {
+    margin-top: 150px;
 }
 
 .card h1 {
