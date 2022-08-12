@@ -113,7 +113,7 @@ hr {
     color: hsl(178, 100%, 50%);
  }
 
- @media (max-width: 400px) {
+ @media (max-width: 500px) {
      .card {
         margin-top: 0;
      }
