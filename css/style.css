@@ -112,3 +112,9 @@ hr {
  .criador p a:hover {
     color: hsl(178, 100%, 50%);
  }
+
+ @media (max-width: 400px) {
+     .card {
+        margin-top: 0;
+     }
+ }
